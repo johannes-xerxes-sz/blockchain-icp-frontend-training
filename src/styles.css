@@ -1,0 +1,213 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0ed; /* Soft off-white background */
+    color: #2d2d2d; /* Dark, modern text color */
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #333d29; /* Dark olive green */
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    margin: 0 1rem;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #f4a261; /* Warm soft orange */
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.nav ul li a:hover {
+    color: #e76f51; /* Bright soft red-orange */
+    transition: color 0.3s ease-in-out;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.about {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #f8f9fa; /* Light grey for better contrast */
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    color: #264653; /* Deep soft blue */
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #6b705c; /* Subtle, modern grey-green */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.projects, .skills, .contact {
+    padding: 3rem 0;
+    background-color: #ffffff; /* Clean white background */
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2, .skills h2, .contact h2 {
+    color: #2a9d8f; /* Soft teal */
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background-color: #e9c46a; /* Muted soft yellow */
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    flex: 1 1 30%;
+    margin-right: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+}
+
+.project-item h3 {
+    margin-top: 0;
+    color: #264653; /* Deep soft blue */
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-list, .skills-extras {
+    flex: 1 1 45%;
+    margin-right: 1rem;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills ul li {
+    background-color: #f4a261; /* Warm soft orange */
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    margin: 0.5rem;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.skills ul li:hover {
+    background-color: #e76f51; /* Bright soft red-orange */
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6b705c; /* Subtle, modern grey-green */
+}
+
+.contact a {
+    color: #2a9d8f; /* Soft teal */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #264653; /* Deep soft blue */
+    transition: color 0.3s ease-in-out;
+}
+
+.footer {
+    background-color: #333d29; /* Dark olive green */
+    padding: 1rem;
+    text-align: center;
+    color: #f0f0ed; /* Soft off-white */
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 0;
+}
+.skills-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    text-align: center;
+}
+
+.skills-item {
+    background-color: #f4a261; /* Warm soft orange */
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+}
+
+.skills-item:hover {
+    background-color: #e76f51; /* Bright soft red-orange */
+    transform: translateY(-5px);
+}
+
+.skills-item i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #ffffffc7;
+}
+
+.skills-item h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.skills-item p {
+    font-size: 0.9rem;
+    margin: 0;
+}
